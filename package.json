@@ -1,0 +1,33 @@
+{
+  "name": "@davidcalhoun/image-resizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcalhoun/image-resizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidcalhoun/image-resizer/issues"
+  },
+  "homepage": "https://github.com/davidcalhoun/image-resizer#readme",
+  "dependencies": {
+    "exif-reader": "^1.0.3",
+    "exifreader": "^2.13.0",
+    "icc": "^1.0.0",
+    "sharp": "^0.30.3",
+    "ts-node-iptc": "^1.0.11"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
+  }
+}
